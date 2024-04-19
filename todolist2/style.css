@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(144, 144, 233);
+}
+
+#card {
+    border: 2px solid white;
+    width: 300px;
+    height: 450px;
+    margin: 70px auto;
+    outline: none;
+    border-radius: 20px;
+}
+
+#search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+#search-input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: oblique;
+    outline: none;
+}
+
+#search-button {
+    width: 43px;
+    height: 41px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+#search-button > img {
+    width: 18px;
+}
+
+#search-button:hover {
+    background-color: white;
+}
+#list {
+    height: 360px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+.item {
+    border: 2px solid white;
+    margin: 10px 20px 10px 20px;
+    border-radius: 20px;
+    height: 80px;
+}
+.item-p {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 15px 15px 5px 15px;
+}
+.tools {
+    display: flex;
+    justify-content: flex-end;
+}
+.complete-btn {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 16px;
+}
+
+.delete-btn {
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 16px;
+}
+.delete-btn:hover,.complete-btn:hover {
+    background-color: white;
+}
+.done {
+    text-decoration: line-through;
+    
+}
